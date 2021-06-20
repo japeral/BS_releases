@@ -15,7 +15,7 @@ Installation:
 - Create a Brave Creator account 
   from: https://creators.brave.com/sign-up
   
-- Create a tweeter account (ignore this step if you already have one account):
+- Create a Twitter account (ignore this step if you already have one account):
   https://twitter.com/i/flow/signup
  
 - Link your uphold account and tweeter Channel to Brave Creators account.
@@ -41,7 +41,7 @@ Installation:
 - This version also includes a time expire feature. Program will stop working on the 16th of next month.
 
 
-*RPI4 HW notes:
+# RPI4 HW notes:
 - Overclock RPI4 CPU to 2000MHz, use proper heat sink.
 - It is recommended the 4GB RAM RPI4 model.
 - Remove in the RPI4 BIOS the 3GB  RAM lock.
@@ -51,6 +51,3 @@ Installation:
   https://www.ebay.co.uk/itm/154393748389  
   
 
-
-
-"# BS_releases" 
