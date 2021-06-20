@@ -1,0 +1,49 @@
+Brave Squeezer Change log.
+
+TODO:
+- Add opening 1 ad per profile, to keep happy the advertisers.
+- Add Spanish Dust Donate skins.
+
+v1.43
+- No RemainingBalance.png skin issue fix, missing try/except added in donate.
+- Fixed the available BAT reading same reading as Ads.
+- Limited the donation to 5 rounds of 1BAT, per profile per group session.
+- Re-enable rewards from card in new tab, inside Suck mode.
+- Added timeout and autp select mode 8 by default within 5s.
+
+v1.40
+- All display resolutions recalibrated and scaled as proportions of 1920x1080.
+- Delay close group set to 15s to allow proccesses to close themselves.
+
+v1.39
+- Fixed shake mouse trace for 1366x768 resolution.
+
+v1.38
+- Added 1366x768 display resolution.
+
+v1.37
+- Auto enable Ads Switch if it turned off. Skin for Spanish added.
+
+
+v1.36
+- Brave Icon not found issue solved.
+- Donate threshold increased to 1, to support May stable release.
+- Fixed captcha coordinates in 1440x900 resolution.
+
+v1.35
+- 1440x900 captcha location coordinates fix.
+
+v1.34 - 10th June 2021
+- Added Dust donation to reduce balance down to 0 (only for PC HW).
+- Added timeoutToLaunchBrowser to Calibration.xlsx
+- Added DelayAds_range to Calibration.xlsx
+- X coordinates fix on 1440x900 display resolution window close issue.
+- Bugfixes
+
+v1.33 - 7th June 2021
+- Variable grow delay between 15 and 30s.
+- Both 32 and 64 bits Brave instalations supported now.
+- Removed the Icon copy dependency into the desktop.
+- Console colouring to improve readability.
+- Console indication on the number of ads received in current iteration loop.
+- Display resolution configurable in config.xlsx. Supported: 1920x1080', '1440x900' or '1280x1024' resolutions
