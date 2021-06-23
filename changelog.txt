@@ -4,6 +4,9 @@ TODO:
 - Add opening 1 ad per profile, to keep happy the advertisers.
 - Add Spanish Dust Donate skins.
 
+v1.44
+- Ads off->on skin changed to calibrate the button better.
+
 v1.43
 - No RemainingBalance.png skin issue fix, missing try/except added in donate.
 - Fixed the available BAT reading same reading as Ads.

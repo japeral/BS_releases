@@ -7,7 +7,7 @@ Works fine with Brave 32 and 64 bits, Stable Release versions.
 
 Installation:
 
-- Install Brave Browser from https://brave.com/
+- Install Brave Browser from https://github.com/brave/brave-browser/releases/tag/v1.24.85
 
 - Create an Uphold Exchange account, and verify your identity (NYC)
   from https://uphold.com/signup?referral=836758228a
@@ -15,19 +15,26 @@ Installation:
 - Create a Brave Creator account 
   from: https://creators.brave.com/sign-up
   
-- Create a Twitter account (ignore this step if you already have one account):
+- Create a tweeter account (ignore this step if you already have one account):
   https://twitter.com/i/flow/signup
  
 - Link your uphold account and tweeter Channel to Brave Creators account.
 
-- Unzip Brave squeezer release package.
+- Clone this repository in your Desktop using command:
+  git clone "http://www.github.com/japeral/BS_Releases"
 
-- Close press 'Esc' button. To exit.
+- Double click in "Install.bat"
 
-- Open the just generated config.xlsx file with an excel editor.
+- Double click in BraveSqueezer.exe
+
+- Once on main menu, close the DOS window.
+
+- Open the just generated "config.xlsx" file with an excel editor.
   If you don't have MS Office, you can install Libre office: https://www.libreoffice.org/download/download/ 
   
-- Configure the Hardware, and number of profiles, and display resolution in the config file and save.
+- Configure the Hardware, and number of profiles, and display resolution in the config file.
+
+- Also, in the donations TAB, set your donation channels URL's. Fill all 8 positions with the same or different addresses.
 
 - Launch BraveSqueezer again.
 
@@ -35,8 +42,14 @@ Installation:
 
 - Sit down and relax.
 
+- The bot will farm ads for up to 30 days, till the 6th on next month.
+
+- The bot will solve the captcha when the orange button appears.
+
+- The bot will automatically donate to any of the donation URL's randomly.
+
 - This version includes a 20% developer fee in the donation algorithm. 
-  (2 each 10 donations of 1 BAT will go for the developer).
+  (2 each 10 donations of 1 BAT will go for the developer donation addresses, thank you!).
 
 - This version also includes a time expire feature. Program will stop working on the 16th of next month.
 
@@ -50,4 +63,6 @@ Installation:
   SanDisk 64GB Extreme microSDXC microSD Card U3 V30 A2 160MB/s 60MB/s
   https://www.ebay.co.uk/itm/154393748389  
   
+
+
 
