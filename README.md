@@ -49,7 +49,7 @@ Installation:
 - The bot will automatically donate to any of the donation URL's randomly.
 
 - This version includes a 20% developer fee in the donation algorithm. 
-  (2 each 10 donations of 1 BAT will go for the developer donation addresses, thank you!).
+  (2 of each 10 donations will go for the developer donation addresses, thank you!).
 
 - This version also includes a time expire feature. Program will stop working on the 16th of next month.
 
