@@ -4,6 +4,17 @@ TODO:
 - Add opening 1 ad per profile, to keep happy the advertisers.
 - Add Spanish Dust Donate skins.
 
+v1.45
+- Automode changed from 8 (all in one) to 4 (low mem ads farm only).
+- Fixed coordinates for 1280x1024 display resolution.
+    * captchaX,captchaY=[957,464] #real do not touch    
+    * tabXx,tabXy=[1221,465] # real do not touch.
+- Suck() F5 times increased from 16 to 18
+- No internet try/except.
+- Kills also process Ccleaner64.exe.
+- Wait 2 seconds after opening Default browser to get rid of "restore" message.
+
+
 v1.44
 - Ads off->on skin changed to calibrate the button better.
 
