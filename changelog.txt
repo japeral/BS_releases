@@ -1,0 +1,157 @@
+BSqueezer Change log.
+
+TODO:
+- Add opening 1 ad per profile, to keep happy the advertisers.
+
+v2.26
+- Donate or captcha, no both in the same iteration implemented.
+- Fixed the donation algorithm hangs.
+
+v2.21
+- Added 120s timeout on WaitforLowCPU() function, was causing program get stuck on rpi4's when visiting
+  heavy load javascript web sites.
+
+v2.20
+- New donation sequence.
+- Donates once only per day per profile, in chunks of 1 or less than 1.
+- Donation reporting to server for accounting amd monitoring.
+- Fixed balance reading issues.
+
+v2.19
+- Added support for Youtube channels.
+- Added mode 1 for influence farming.
+
+v2.18
+-Fixed the random-word issue in the binary generation. Added .txt dictionaries on /language directories.
+-Added clicks to several random popups.
+
+v2.17 public release
+- highcpu bug: replaced coinmarketcapc.com by ubuntu.com
+- 50% times presearch with random words, + 50% from search.xlsx list.
+- Added Addmefast influence farm mode.
+
+v2.16 bug fix
+- removed reddit main web site because hangs the rapsberries when visited.
+- added ebay.com/help/home
+
+v2.15 bug fix
+- removed github main web site because hangs the rapsberries when visited.
+
+v2.14 bug fix
+- Restricted the mouse movement area to prevent FAILSAFE exceptions.
+
+v2.13 bug fix
+- Removed heavy websites from search.xlsx, file is erased and regenerated.
+
+v2.10 public release
+- Added random search from search.xlsx URL file.
+- F5 (suck mode) limited to 5 strokes.
+- Added ads harvest self limit (per profile) to 100 ads per month
+- Added monthly ads counters
+- Added Balance Delta indicator.
+
+v2.04 bug fix
+- Fixed NoInternet and bot closing issue.
+
+v2.03 bug fix
+- Fixed GetTotalBalance issue.
+
+v2.02 bug fix
+- Fixed previousValueFound issue.
+
+v2.01 bug fix
+- Fixed time check issue.
+- Fixed totalBalaces reading after donate issue.
+
+v2.00 public release
+- Expire date pushed to 15th Sep 2021.
+- Total number of default profiles reduced from 360 to 300 to fit better in a 64GB disk image.
+- Delays AdsGrow default values changed from 15s to 30s, to slow down the farming speed.
+- Max donation per profile capped to 2BAT per iteration loop.
+- Total Balance in bot reporting scaning the 360 profiles from balances.xlsx file
+- Added Remote update request.
+- Added Whitelist check, and remote stop.
+- Added Client-Server monitoring.
+- Farming speed calculation. averaged 14 profiles.
+- Improved Ads delta calculation searching in excel file for previous value as start value.
+- Improved Captcha solve with a loop that tries to solve it forever.
+- Improved Balance Read, closing any previous captcha area first.
+- Fixed icon in desktop issue, closing any possible windows system popup first.
+
+
+v1.48
+- DustMode also enabled for in rpi4 hw.
+- Added Spanish Dust Donate skins.
+
+v1.47
+- Enabled Dust mode in config file. Browser needs to be updated to v1.25.68 to work.
+- DonateThreshold added in config.xlsx to 1.00BAT by default.
+
+v1.46 public release
+- Expire date pushed to 15th Aug 2021.
+- Splitted Donation URL into a separate xlsx file.
+- Mode timeout increased from 5 to 10 seconds.
+- Auto mode configurable to 4 or 8 in Donate.xlsx
+- Removed the Developer Mandatory 20% Donation Fee. 
+- Donation URL increased from 8 to 20. 
+- Please keep at least 1 URL to default value to contribute the developer.
+- Linked last delay before closing to srch parameter. Now Captcha mode takes less time per profile.
+- Fixed 1366x768 display resolution issues.
+
+v1.45
+- Automode changed from 8 (all in one) to 4 (low mem ads farm only).
+- Fixed coordinates for 1280x1024 display resolution.
+    * captchaX,captchaY=[957,464] #real do not touch    
+    * tabXx,tabXy=[1221,465] # real do not touch.
+- Suck() F5 times increased from 16 to 18
+- No internet try/except.
+- Kills also process Ccleaner64.exe.
+- Wait 2 seconds after opening Default browser to get rid of "restore" message.
+
+
+v1.44
+- Ads off->on skin changed to calibrate the button better.
+
+v1.43
+- No RemainingBalance.png skin issue fix, missing try/except added in donate.
+- Fixed the available BAT reading same reading as Ads.
+- Limited the donation to 5 rounds of 1BAT, per profile per group session.
+- Re-enable rewards from card in new tab, inside Suck mode.
+- Added timeout and autp select mode 8 by default within 5s.
+
+v1.40
+- All display resolutions recalibrated and scaled as proportions of 1920x1080.
+- Delay close group set to 15s to allow proccesses to close themselves.
+
+v1.39
+- Fixed shake mouse trace for 1366x768 resolution.
+
+v1.38
+- Added 1366x768 display resolution.
+
+v1.37
+- Auto enable Ads Switch if it turned off. Skin for Spanish added.
+
+
+v1.36
+- Brave Icon not found issue solved.
+- Donate threshold increased to 1, to support May stable release.
+- Fixed captcha coordinates in 1440x900 resolution.
+
+v1.35
+- 1440x900 captcha location coordinates fix.
+
+v1.34 - 10th June 2021
+- Added Dust donation to reduce balance down to 0 (only for PC HW).
+- Added timeoutToLaunchBrowser to Calibration.xlsx
+- Added DelayAds_range to Calibration.xlsx
+- X coordinates fix on 1440x900 display resolution window close issue.
+- Bugfixes
+
+v1.33 - 7th June 2021
+- Variable grow delay between 15 and 30s.
+- Both 32 and 64 bits Brave instalations supported now.
+- Removed the Icon copy dependency into the desktop.
+- Console colouring to improve readability.
+- Console indication on the number of ads received in current iteration loop.
+- Display resolution configurable in config.xlsx. Supported: 1920x1080', '1440x900' or '1280x1024' resolutions

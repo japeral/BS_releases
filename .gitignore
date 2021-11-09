@@ -1,0 +1,5 @@
+*.xls
+*.xlsx
+*.7z
+release.bat
+captcha_snap.png
